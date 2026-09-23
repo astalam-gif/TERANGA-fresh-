@@ -1,25 +1,107 @@
-body{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
     font-family: Arial, sans-serif;
+    background-color: #fff8ef;
+    color: #333;
+    line-height: 1.6;
+}
+/* En-tête */
+header {
     text-align: center;
-    background-color:#fff5e6;
+    padding: 40px 20px;
+    background-color: #8b4513;
+    color: white;
 }
-
-h1{
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 18px;
+}
+/* Accueil */
+.accueil {
+    text-align: center;
+    padding: 70px 20px;
+}
+.accueil h2 {
+    font-size: 32px;
     color: #8b4513;
-
+    margin-bottom: 15px;
 }
-
-h2 {
-    color: #d2691e;
-
+.accueil p {
+    margin-bottom: 25px;
 }
-
-button{
-    background-color:#8b4513
-    color: white
-    border: none
+/* Boutons */
+.bouton {
+    display: inline-block;
+    background-color: #8b4513;
+    color: white;
+    text-decoration: none;
     padding: 12px 25px;
-    border-radius: 8px
-    cursor: pointer;
-
+    border-radius: 25px;
+    font-weight: bold;
+}
+.bouton:hover {
+    background-color: #6f350f;
+}
+/* Produits */
+#produits {
+    padding: 50px 20px;
+    text-align: center;
+}
+#produits h2 {
+    font-size: 30px;
+    color: #8b4513;
+    margin-bottom: 30px;
+}
+.produits {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.carte {
+    background-color: white;
+    width: 280px;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.carte h3 {
+    color: #8b4513;
+    margin: 10px 0;
+}
+.carte p {
+    margin-bottom: 15px;
+}
+.carte strong {
+    color: #d2691e;
+}
+.emoji {
+    font-size: 55px;
+}
+/* Commande */
+.commande {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f3dfc1;
+}
+.commande h2 {
+    color: #8b4513;
+    margin-bottom: 10px;
+}
+.commande p {
+    margin-bottom: 20px;
+}
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #8b4513;
+    color: white;
 }
